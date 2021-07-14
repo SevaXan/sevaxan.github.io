@@ -1,0 +1,39 @@
+h1 {
+  color: red;
+}
+
+.second {
+  width: 100px;
+  color: white;
+  background: blue;
+  margin: 0 0 100px 0;
+}
+
+span {
+  color: red;
+}
+
+h2 {
+ color: white;
+ background: green;
+}
+
+.big {
+  padding: 50px 0 50px 30px;
+}
+
+.ican {
+  margin: 0 0 10px 50px;
+}
+
+ul {
+  font-size: 25px;
+}
+
+li {
+  border: solid 1px;
+}
+
+footer {
+  margin-bottom: 100px;
+}

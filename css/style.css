@@ -1,0 +1,291 @@
+body {
+	padding: 0;
+	margin: 0 ;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.header {
+	background: #4EBEFE;
+	background: -webkit-linear-gradient(bottom right, #4EBEFE, #3790D9);
+	background: -moz-linear-gradient(bottom right, #4EBEFE, #3790D9);
+	background: linear-gradient(to top left, #4EBEFE, #3790D9);
+	color: #fff;
+	padding-bottom: 200px;
+}
+
+.logo {
+	margin-top: 66px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	
+}
+
+.title {
+	line-height: 50px;
+	font-size: 34px;
+	width: 320px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 155px;
+	width: 480px;
+}
+
+.offer p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	width: 450px;
+	font-size: 17px;
+}
+
+.offer h1 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #000;
+	background:#ffd429;
+	display: block;
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #bc9a11;	
+}
+
+.desktop {
+	width: 100%;
+	margin: 50px auto;
+}
+
+.section-title {	
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	font-size: 15px;
+}
+
+.skill {
+	background: url("../img/icon1.jpg") no-repeat center top;
+	padding-top: 85px;
+	width: 295px;
+	margin-top: 80px;
+}
+
+.skill-free {
+	background: url("../img/icon2.jpg") no-repeat center top;
+	padding-top: 85px;
+	width: 260px;
+	margin-top: 80px;
+}
+
+.skill-change {
+	background: url("../img/icon3.jpg") no-repeat center top;
+	padding-top: 85px;
+	width: 295px;
+	margin-top: 80px;
+}
+
+.skill h3 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 19px;
+}
+
+.skill p {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+.text-title {
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding: 100px 0 ;
+}
+
+form input {
+	display: block;
+	border: solid #bbbbbb 1px;
+	margin: 0 auto;
+	width: 340px;
+	height: 40px;
+	margin-top: 15px;
+	padding-left: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.form-btn {	
+	width: 340px;
+	border: 0;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.credit {
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+
+.footer {
+	padding: 60px 0;
+	background: #164d7a;
+}
+
+
+
+/*Responsive*/
+
+/*-----------------------------------------------------------------*/
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+}
+
+/*-----------------------------------------------------------------*/
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+	width: 720px;
+}
+.desktop {
+	display: none;
+}
+}
+
+
+/*-----------------------------------------------------------------*/
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+/*.skills {
+	display: flex;
+	justify-content: center;
+}*/
+
+.skill {
+	width: 150px;
+	height: 200px;
+}
+}
+
+
+/*-----------------------------------------------------------------*/
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 320px;
+	}
+	form input {
+	display: block;
+	border: solid #bbbbbb 1px;
+	margin: 0 auto;
+	width: 300px;
+	height: 40px;
+	margin-top: 15px;
+	padding-left: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.form-btn {
+	width: 300px;
+	border: 0;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	padding: 0 50px;
+	display: flex;
+	flex-flow: column;
+	margin-top: 50px;
+	width: 320px;
+
+}
+
+.offer p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	width: 200px;
+	font-size: 15px;
+}
+
+.offer h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-flow: column;
+    height: 610px;
+    font-size: 15px;
+    margin: 0 0 250px 80px;
+ }
+
+.skill {
+	width: 150px;
+	height: 50px;
+}
+.title {
+    line-height: 50px;
+    font-size: 34px;
+    width: 250px;
+}
+
+.offer-btn {
+margin: 0 auto;
+}
+
+.logo {
+	margin-left: 15px;}
+
+}
